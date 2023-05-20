@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import About from './pages/About';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path='/' exact Component={Home} />
         <Route path='/menu' exact Component={Menu} />
+        <Route path='/about' exact Component={About} />
+
 
       </Routes>
       <Footer />
