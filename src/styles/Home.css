@@ -23,6 +23,7 @@
     height: 60px;
     font-weight: 50;
     color: black;
+    font-weight: bold;
   }
   
   .headerContainer p {
@@ -30,6 +31,7 @@
     font-size: 40px;
     font-weight: lighter;
     color: black;
+    font-weight: bold;
   }
   
   .headerContainer button {
@@ -51,8 +53,14 @@
     cursor: pointer;
     transition: 0.3s ease-in;
   }
+
+  @media only screen and (max-width: 870px) {
+    .headerContainer h1 {
+      font-size: 70px;
+    }
+  }
   
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 700px) {
     .home {
       justify-content: center;
       align-items: center;
@@ -75,17 +83,22 @@
       font-size: 40px;
       height: 30px;
       color: white;
+      font-weight: lighter;
+      font-family: cursive;
     }
   
     .headerContainer p {
       font-size: 30px;
       color: white;
+      font-weight: lighter;
+      font-family: cursive;
     }
   
     .headerContainer button {
       background-color: white;
       color: #121619;
       margin-bottom: 30px;
+      font-weight: bold;
     }
   
     .headerContainer button:hover {
