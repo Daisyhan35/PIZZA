@@ -2,6 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    margin-bottom: 150px;
   }
   
   .contact .leftSide {
@@ -18,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
   }
   
   .contact .rightSide h1 {
